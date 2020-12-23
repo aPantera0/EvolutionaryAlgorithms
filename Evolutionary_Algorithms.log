@@ -1,0 +1,1563 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdftex 2020.12.13)  21 DEC 2020 12:53
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Evolutionary_Algorithms.tex
+(./Evolutionary_Algorithms.tex
+! Undefined control sequence.
+l.1 \documentclass
+                  [11pt]{article}
+? 
+! Undefined control sequence.
+l.3     \usepackage
+                   [breakable]{tcolorbox}
+? 
+! Undefined control sequence.
+l.4     \usepackage
+                   {parskip} % Stop auto-indenting (to mimic markdown behavi...
+
+? 
+! Undefined control sequence.
+l.6     \usepackage
+                   {iftex}
+? 
+! Undefined control sequence.
+l.7     \ifPDFTeX
+                 
+? 
+! Undefined control sequence.
+l.8     	\usepackage
+                    [T1]{fontenc}
+? 
+! Undefined control sequence.
+l.9     	\usepackage
+                    {mathpazo}
+? 
+! Extra \else.
+l.10     \else
+              
+? 
+! Undefined control sequence.
+l.11     	\usepackage
+                     {fontspec}
+? 
+! Extra \fi.
+l.12     \fi
+            
+? 
+! Undefined control sequence.
+l.16     \usepackage
+                    {graphicx}
+? 
+! Undefined control sequence.
+l.22     \usepackage
+                    {caption}
+? 
+! Undefined control sequence.
+l.23     \DeclareCaptionFormat
+                              {nocaption}{}
+? 
+! Undefined control sequence.
+l.24     \captionsetup
+                      {format=nocaption,aboveskip=0pt,belowskip=0pt}
+? 
+! Undefined control sequence.
+l.26     \usepackage
+                    {float}
+? 
+! Undefined control sequence.
+l.27     \floatplacement
+                        {figure}{H} % forces figures to be placed at the cor...
+
+? 
+! Undefined control sequence.
+l.28     \usepackage
+                    {xcolor} % Allow colors to be defined
+? 
+! Undefined control sequence.
+l.29     \usepackage
+                    {enumerate} % Needed for markdown enumerations to work
+? 
+! Undefined control sequence.
+l.30     \usepackage
+                    {geometry} % Used to adjust the document margins
+? 
+! Undefined control sequence.
+l.31     \usepackage
+                    {amsmath} % Equations
+? 
+! Undefined control sequence.
+l.32     \usepackage
+                    {amssymb} % Equations
+? 
+! Undefined control sequence.
+l.33     \usepackage
+                    {textcomp} % defines textquotesingle
+? 
+! Undefined control sequence.
+l.35     \AtBeginDocument
+                         {%
+? 
+! Undefined control sequence.
+l.38     \usepackage
+                    {upquote} % Upright quotes for verbatim code
+? 
+! Undefined control sequence.
+l.39     \usepackage
+                    {eurosym} % defines \euro
+? 
+! Undefined control sequence.
+l.40     \usepackage
+                    [mathletters]{ucs} % Extended unicode (utf-8) support
+? 
+! Undefined control sequence.
+l.41     \usepackage
+                    {fancyvrb} % verbatim replacement that allows latex
+? 
+! Undefined control sequence.
+l.42     \usepackage
+                    {grffile} % extends the file name processing of package ...
+
+? 
+! Undefined control sequence.
+l.44     \makeatletter
+                       % fix for old versions of grffile with XeLaTeX
+? 
+! Undefined control sequence.
+l.45     \@
+           ifpackagelater{grffile}{2019/11/01}
+? 
+! Undefined control sequence.
+l.56     \makeatother
+                     
+? 
+! Undefined control sequence.
+l.57     \usepackage
+                    [Export]{adjustbox} % Used to constrain images to a maxi...
+
+? 
+! Undefined control sequence.
+l.58     \adjustboxset
+                      {max size={0.9\linewidth}{0.9\paperheight}}
+? 
+! Undefined control sequence.
+l.58     \adjustboxset{max size={0.9\linewidth
+                                              }{0.9\paperheight}}
+? 
+! Undefined control sequence.
+l.58 ...t{max size={0.9\linewidth}{0.9\paperheight
+                                                  }}
+? 
+! Undefined control sequence.
+l.63     \usepackage
+                    {hyperref}
+? 
+! Undefined control sequence.
+l.66     \usepackage
+                    {titling}
+? 
+! Undefined control sequence.
+l.67     \usepackage
+                    {longtable} % longtable support required by pandoc >1.10
+? 
+! Undefined control sequence.
+l.68     \usepackage
+                    {booktabs}  % table support for pandoc > 1.12.2
+? 
+! Undefined control sequence.
+l.69     \usepackage
+                    [inline]{enumitem} % IRkernel/repr support (it uses the ...
+
+? 
+! Undefined control sequence.
+l.70     \usepackage
+                    [normalem]{ulem} % ulem is needed to support strikethrou...
+
+? 
+! Undefined control sequence.
+l.72     \usepackage
+                    {mathrsfs}
+? 
+! Undefined control sequence.
+l.77     \definecolor
+                     {urlcolor}{rgb}{0,.145,.698}
+? 
+! Undefined control sequence.
+l.78     \definecolor
+                     {linkcolor}{rgb}{.71,0.21,0.01}
+? 
+! Undefined control sequence.
+l.79     \definecolor
+                     {citecolor}{rgb}{.12,.54,.11}
+? 
+! Undefined control sequence.
+l.82     \definecolor
+                     {ansi-black}{HTML}{3E424D}
+? 
+! Undefined control sequence.
+l.83     \definecolor
+                     {ansi-black-intense}{HTML}{282C36}
+? 
+! Undefined control sequence.
+l.84     \definecolor
+                     {ansi-red}{HTML}{E75C58}
+? 
+! Undefined control sequence.
+l.85     \definecolor
+                     {ansi-red-intense}{HTML}{B22B31}
+? 
+! Undefined control sequence.
+l.86     \definecolor
+                     {ansi-green}{HTML}{00A250}
+? 
+! Undefined control sequence.
+l.87     \definecolor
+                     {ansi-green-intense}{HTML}{007427}
+? 
+! Undefined control sequence.
+l.88     \definecolor
+                     {ansi-yellow}{HTML}{DDB62B}
+? 
+! Undefined control sequence.
+l.89     \definecolor
+                     {ansi-yellow-intense}{HTML}{B27D12}
+? 
+! Undefined control sequence.
+l.90     \definecolor
+                     {ansi-blue}{HTML}{208FFB}
+? 
+! Undefined control sequence.
+l.91     \definecolor
+                     {ansi-blue-intense}{HTML}{0065CA}
+? 
+! Undefined control sequence.
+l.92     \definecolor
+                     {ansi-magenta}{HTML}{D160C4}
+? 
+! Undefined control sequence.
+l.93     \definecolor
+                     {ansi-magenta-intense}{HTML}{A03196}
+? 
+! Undefined control sequence.
+l.94     \definecolor
+                     {ansi-cyan}{HTML}{60C6C8}
+? 
+! Undefined control sequence.
+l.95     \definecolor
+                     {ansi-cyan-intense}{HTML}{258F8F}
+? 
+! Undefined control sequence.
+l.96     \definecolor
+                     {ansi-white}{HTML}{C5C1B4}
+? 
+! Undefined control sequence.
+l.97     \definecolor
+                     {ansi-white-intense}{HTML}{A1A6B2}
+? 
+! Undefined control sequence.
+l.98     \definecolor
+                     {ansi-default-inverse-fg}{HTML}{FFFFFF}
+? 
+! Undefined control sequence.
+l.99     \definecolor
+                     {ansi-default-inverse-bg}{HTML}{000000}
+? 
+
+Overfull \hbox (35.49484pt too wide) in paragraph at lines 82--100
+[]\tenrm ansi-blackHTML3E424D ansi-black-intenseHTML282C36 ansi-redHTMLE75C58 a
+nsi-red-intenseHTMLB22B31|
+
+\hbox(6.94444+0.0)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm a
+.\tenrm n
+.\tenrm s
+.\tenrm i
+.etc.
+
+
+Overfull \hbox (44.52264pt too wide) in paragraph at lines 82--100
+\tenrm ansi-greenHTML00A250 ansi-green-intenseHTML007427 ansi-yellowHTMLDDB62B 
+ansi-yellow-intenseHTMLB27D12|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm a
+.\tenrm n
+.\tenrm s
+.\tenrm i
+.\tenrm -
+.etc.
+
+
+Overfull \hbox (55.02164pt too wide) in paragraph at lines 82--100
+\tenrm ansi-blueHTML208FFB ansi-blue-intenseHTML0065CA ansi-magentaHTMLD160C4 a
+nsi-magenta-intenseHTMLA03196|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm a
+.\tenrm n
+.\tenrm s
+.\tenrm i
+.\tenrm -
+.etc.
+
+
+Overfull \hbox (36.13376pt too wide) in paragraph at lines 82--100
+\tenrm ansi-cyanHTML60C6C8 ansi-cyan-intenseHTML258F8F ansi-whiteHTMLC5C1B4 ans
+i-white-intenseHTMLA1A6B2|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm a
+.\tenrm n
+.\tenrm s
+.\tenrm i
+.\tenrm -
+.etc.
+
+! Undefined control sequence.
+l.102     \definecolor
+                      {outerrorbackground}{HTML}{FFDFDF}
+? 
+! Undefined control sequence.
+l.106     \providecommand
+                         {\tightlist}{%
+? 
+! Undefined control sequence.
+l.106     \providecommand{\tightlist
+                                    }{%
+? 
+! Undefined control sequence.
+l.107       \setlength
+                      {\itemsep}{0pt}\setlength{\parskip}{0pt}}
+? 
+! Undefined control sequence.
+l.107       \setlength{\itemsep
+                               }{0pt}\setlength{\parskip}{0pt}}
+? 
+! Undefined control sequence.
+l.107       \setlength{\itemsep}{0pt}\setlength
+                                               {\parskip}{0pt}}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.107 ...length{\itemsep}{0pt}\setlength{\parskip}
+                                                  {0pt}}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.107 ...length{\itemsep}{0pt}\setlength{\parskip}
+                                                  {0pt}}
+? 
+! Undefined control sequence.
+l.108     \DefineVerbatimEnvironment
+                                    {Highlighting}{Verbatim}{commandchars=\\...
+
+? 
+! Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.108 ...hlighting}{Verbatim}{commandchars=\\\{\}}
+                                                  
+? 
+Runaway argument?
+\{\}
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.108 ...hlighting}{Verbatim}{commandchars=\\\{\}}
+                                                  
+? 
+! Undefined control sequence.
+l.110     \newenvironment
+                         {Shaded}{}{}
+? 
+! Undefined control sequence.
+l.111     \newcommand
+                     {\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textb...
+
+? 
+! Undefined control sequence.
+l.111     \newcommand{\KeywordTok
+                                 }[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textb...
+
+? 
+! Undefined control sequence.
+l.111     \newcommand{\KeywordTok}[1]{\textcolor
+                                                [rgb]{0.00,0.44,0.13}{\textb...
+
+? 
+! Undefined control sequence.
+l.111 ...]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf
+                                                  {{#1}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.111 ...textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#
+                                                  1}}}}
+? 
+! Undefined control sequence.
+l.112     \newcommand
+                     {\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+? 
+! Undefined control sequence.
+l.112     \newcommand{\DataTypeTok
+                                  }[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+? 
+! Undefined control sequence.
+l.112     \newcommand{\DataTypeTok}[1]{\textcolor
+                                                 [rgb]{0.56,0.13,0.00}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.112 ...ok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.113     \newcommand
+                     {\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+? 
+! Undefined control sequence.
+l.113     \newcommand{\DecValTok
+                                }[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+? 
+! Undefined control sequence.
+l.113     \newcommand{\DecValTok}[1]{\textcolor
+                                               [rgb]{0.25,0.63,0.44}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.113 ...ok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.114     \newcommand
+                     {\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+? 
+! Undefined control sequence.
+l.114     \newcommand{\BaseNTok
+                               }[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+? 
+! Undefined control sequence.
+l.114     \newcommand{\BaseNTok}[1]{\textcolor
+                                              [rgb]{0.25,0.63,0.44}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.114 ...ok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.115     \newcommand
+                     {\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+? 
+! Undefined control sequence.
+l.115     \newcommand{\FloatTok
+                               }[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+? 
+! Undefined control sequence.
+l.115     \newcommand{\FloatTok}[1]{\textcolor
+                                              [rgb]{0.25,0.63,0.44}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.115 ...ok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.116     \newcommand
+                     {\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+? 
+! Undefined control sequence.
+l.116     \newcommand{\CharTok
+                              }[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+? 
+! Undefined control sequence.
+l.116     \newcommand{\CharTok}[1]{\textcolor
+                                             [rgb]{0.25,0.44,0.63}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.116 ...ok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.117     \newcommand
+                     {\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+? 
+! Undefined control sequence.
+l.117     \newcommand{\StringTok
+                                }[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+? 
+! Undefined control sequence.
+l.117     \newcommand{\StringTok}[1]{\textcolor
+                                               [rgb]{0.25,0.44,0.63}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.117 ...ok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.118     \newcommand
+                     {\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\texti...
+
+? 
+! Undefined control sequence.
+l.118     \newcommand{\CommentTok
+                                 }[1]{\textcolor[rgb]{0.38,0.63,0.69}{\texti...
+
+? 
+! Undefined control sequence.
+l.118     \newcommand{\CommentTok}[1]{\textcolor
+                                                [rgb]{0.38,0.63,0.69}{\texti...
+
+? 
+! Undefined control sequence.
+l.118 ...]{\textcolor[rgb]{0.38,0.63,0.69}{\textit
+                                                  {{#1}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.118 ...textcolor[rgb]{0.38,0.63,0.69}{\textit{{#
+                                                  1}}}}
+? 
+! Undefined control sequence.
+l.119     \newcommand
+                     {\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+? 
+! Undefined control sequence.
+l.119     \newcommand{\OtherTok
+                               }[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+? 
+! Undefined control sequence.
+l.119     \newcommand{\OtherTok}[1]{\textcolor
+                                              [rgb]{0.00,0.44,0.13}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.119 ...ok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.120     \newcommand
+                     {\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{...
+
+? 
+! Undefined control sequence.
+l.120     \newcommand{\AlertTok
+                               }[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{...
+
+? 
+! Undefined control sequence.
+l.120     \newcommand{\AlertTok}[1]{\textcolor
+                                              [rgb]{1.00,0.00,0.00}{\textbf{...
+
+? 
+! Undefined control sequence.
+l.120 ...]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf
+                                                  {{#1}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.120 ...textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#
+                                                  1}}}}
+? 
+! Undefined control sequence.
+l.121     \newcommand
+                     {\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+? 
+! Undefined control sequence.
+l.121     \newcommand{\FunctionTok
+                                  }[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+? 
+! Undefined control sequence.
+l.121     \newcommand{\FunctionTok}[1]{\textcolor
+                                                 [rgb]{0.02,0.16,0.49}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.121 ...ok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.122     \newcommand
+                     {\RegionMarkerTok}[1]{{#1}}
+? 
+! Undefined control sequence.
+l.122     \newcommand{\RegionMarkerTok
+                                      }[1]{{#1}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.122     \newcommand{\RegionMarkerTok}[1]{{#
+                                             1}}
+? 
+! Undefined control sequence.
+l.123     \newcommand
+                     {\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{...
+
+? 
+! Undefined control sequence.
+l.123     \newcommand{\ErrorTok
+                               }[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{...
+
+? 
+! Undefined control sequence.
+l.123     \newcommand{\ErrorTok}[1]{\textcolor
+                                              [rgb]{1.00,0.00,0.00}{\textbf{...
+
+? 
+! Undefined control sequence.
+l.123 ...]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf
+                                                  {{#1}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.123 ...textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#
+                                                  1}}}}
+? 
+! Undefined control sequence.
+l.124     \newcommand
+                     {\NormalTok}[1]{{#1}}
+? 
+! Undefined control sequence.
+l.124     \newcommand{\NormalTok
+                                }[1]{{#1}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.124     \newcommand{\NormalTok}[1]{{#
+                                       1}}
+? 
+
+Overfull \hbox (65.38535pt too wide) in paragraph at lines 110--125
+[]\tenrm Shaded [1][rgb]0.00,0.44,0.131 [1][rgb]0.56,0.13,0.001 [1][rgb]0.25,0.
+63,0.441 [1][rgb]0.25,0.63,0.441 [1][rgb]0.25,0.63,0.441|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm S
+.\tenrm h
+.\tenrm a
+.\tenrm d
+.etc.
+
+
+Overfull \hbox (11.49638pt too wide) in paragraph at lines 110--125
+\tenrm [1][rgb]0.25,0.44,0.631 [1][rgb]0.25,0.44,0.631 [1][rgb]0.38,0.63,0.691 
+[1][rgb]0.00,0.44,0.131 [1][rgb]1.00,0.00,0.001|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm [
+.\tenrm 1
+.\tenrm ]
+.\tenrm [
+.\tenrm r
+.etc.
+
+! Undefined control sequence.
+l.127     \newcommand
+                     {\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+? 
+! Undefined control sequence.
+l.127     \newcommand{\ConstantTok
+                                  }[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+? 
+! Undefined control sequence.
+l.127     \newcommand{\ConstantTok}[1]{\textcolor
+                                                 [rgb]{0.53,0.00,0.00}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.127 ...ok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.128     \newcommand
+                     {\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#...
+
+? 
+! Undefined control sequence.
+l.128     \newcommand{\SpecialCharTok
+                                     }[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#...
+
+? 
+! Undefined control sequence.
+l.128 ...newcommand{\SpecialCharTok}[1]{\textcolor
+                                                  [rgb]{0.25,0.44,0.63}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.128 ...ok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.129     \newcommand
+                     {\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}...
+
+? 
+! Undefined control sequence.
+l.129     \newcommand{\VerbatimStringTok
+                                        }[1]{\textcolor[rgb]{0.25,0.44,0.63}...
+
+? 
+! Undefined control sequence.
+l.129 ...command{\VerbatimStringTok}[1]{\textcolor
+                                                  [rgb]{0.25,0.44,0.63}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.129 ...ok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.130     \newcommand
+                     {\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{...
+
+? 
+! Undefined control sequence.
+l.130     \newcommand{\SpecialStringTok
+                                       }[1]{\textcolor[rgb]{0.73,0.40,0.53}{...
+
+? 
+! Undefined control sequence.
+l.130 ...wcommand{\SpecialStringTok}[1]{\textcolor
+                                                  [rgb]{0.73,0.40,0.53}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.130 ...ok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.131     \newcommand
+                     {\ImportTok}[1]{{#1}}
+? 
+! Undefined control sequence.
+l.131     \newcommand{\ImportTok
+                                }[1]{{#1}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.131     \newcommand{\ImportTok}[1]{{#
+                                       1}}
+? 
+! Undefined control sequence.
+l.132     \newcommand
+                     {\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{...
+
+? 
+! Undefined control sequence.
+l.132     \newcommand{\DocumentationTok
+                                       }[1]{\textcolor[rgb]{0.73,0.13,0.13}{...
+
+? 
+! Undefined control sequence.
+l.132 ...wcommand{\DocumentationTok}[1]{\textcolor
+                                                  [rgb]{0.73,0.13,0.13}{\tex...
+
+? 
+! Undefined control sequence.
+l.132 ...]{\textcolor[rgb]{0.73,0.13,0.13}{\textit
+                                                  {{#1}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.132 ...textcolor[rgb]{0.73,0.13,0.13}{\textit{{#
+                                                  1}}}}
+? 
+! Undefined control sequence.
+l.133     \newcommand
+                     {\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\te...
+
+? 
+! Undefined control sequence.
+l.133     \newcommand{\AnnotationTok
+                                    }[1]{\textcolor[rgb]{0.38,0.63,0.69}{\te...
+
+? 
+! Undefined control sequence.
+l.133 ...\newcommand{\AnnotationTok}[1]{\textcolor
+                                                  [rgb]{0.38,0.63,0.69}{\tex...
+
+? 
+! Undefined control sequence.
+l.133 ...]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf
+                                                  {\textit{{#1}}}}}
+? 
+! Undefined control sequence.
+l.133 ...olor[rgb]{0.38,0.63,0.69}{\textbf{\textit
+                                                  {{#1}}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.133 ...r[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#
+                                                  1}}}}}
+? 
+! Undefined control sequence.
+l.134     \newcommand
+                     {\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\te...
+
+? 
+! Undefined control sequence.
+l.134     \newcommand{\CommentVarTok
+                                    }[1]{\textcolor[rgb]{0.38,0.63,0.69}{\te...
+
+? 
+! Undefined control sequence.
+l.134 ...\newcommand{\CommentVarTok}[1]{\textcolor
+                                                  [rgb]{0.38,0.63,0.69}{\tex...
+
+? 
+! Undefined control sequence.
+l.134 ...]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf
+                                                  {\textit{{#1}}}}}
+? 
+! Undefined control sequence.
+l.134 ...olor[rgb]{0.38,0.63,0.69}{\textbf{\textit
+                                                  {{#1}}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.134 ...r[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#
+                                                  1}}}}}
+? 
+! Undefined control sequence.
+l.135     \newcommand
+                     {\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+? 
+! Undefined control sequence.
+l.135     \newcommand{\VariableTok
+                                  }[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+? 
+! Undefined control sequence.
+l.135     \newcommand{\VariableTok}[1]{\textcolor
+                                                 [rgb]{0.10,0.09,0.49}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.135 ...ok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.136     \newcommand
+                     {\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\t...
+
+? 
+! Undefined control sequence.
+l.136     \newcommand{\ControlFlowTok
+                                     }[1]{\textcolor[rgb]{0.00,0.44,0.13}{\t...
+
+? 
+! Undefined control sequence.
+l.136 ...newcommand{\ControlFlowTok}[1]{\textcolor
+                                                  [rgb]{0.00,0.44,0.13}{\tex...
+
+? 
+! Undefined control sequence.
+l.136 ...]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf
+                                                  {{#1}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.136 ...textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#
+                                                  1}}}}
+? 
+! Undefined control sequence.
+l.137     \newcommand
+                     {\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+? 
+! Undefined control sequence.
+l.137     \newcommand{\OperatorTok
+                                  }[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+? 
+! Undefined control sequence.
+l.137     \newcommand{\OperatorTok}[1]{\textcolor
+                                                 [rgb]{0.40,0.40,0.40}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.137 ...ok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.138     \newcommand
+                     {\BuiltInTok}[1]{{#1}}
+? 
+! Undefined control sequence.
+l.138     \newcommand{\BuiltInTok
+                                 }[1]{{#1}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.138     \newcommand{\BuiltInTok}[1]{{#
+                                        1}}
+? 
+! Undefined control sequence.
+l.139     \newcommand
+                     {\ExtensionTok}[1]{{#1}}
+? 
+! Undefined control sequence.
+l.139     \newcommand{\ExtensionTok
+                                   }[1]{{#1}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.139     \newcommand{\ExtensionTok}[1]{{#
+                                          1}}
+? 
+! Undefined control sequence.
+l.140     \newcommand
+                     {\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{...
+
+? 
+! Undefined control sequence.
+l.140     \newcommand{\PreprocessorTok
+                                      }[1]{\textcolor[rgb]{0.74,0.48,0.00}{{...
+
+? 
+! Undefined control sequence.
+l.140 ...ewcommand{\PreprocessorTok}[1]{\textcolor
+                                                  [rgb]{0.74,0.48,0.00}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.140 ...ok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.141     \newcommand
+                     {\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+? 
+! Undefined control sequence.
+l.141     \newcommand{\AttributeTok
+                                   }[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+? 
+! Undefined control sequence.
+l.141     \newcommand{\AttributeTok}[1]{\textcolor
+                                                  [rgb]{0.49,0.56,0.16}{{#1}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.141 ...ok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#
+                                                  1}}}
+? 
+! Undefined control sequence.
+l.142     \newcommand
+                     {\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\t...
+
+? 
+! Undefined control sequence.
+l.142     \newcommand{\InformationTok
+                                     }[1]{\textcolor[rgb]{0.38,0.63,0.69}{\t...
+
+? 
+! Undefined control sequence.
+l.142 ...newcommand{\InformationTok}[1]{\textcolor
+                                                  [rgb]{0.38,0.63,0.69}{\tex...
+
+? 
+! Undefined control sequence.
+l.142 ...]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf
+                                                  {\textit{{#1}}}}}
+? 
+! Undefined control sequence.
+l.142 ...olor[rgb]{0.38,0.63,0.69}{\textbf{\textit
+                                                  {{#1}}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.142 ...r[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#
+                                                  1}}}}}
+? 
+! Undefined control sequence.
+l.143     \newcommand
+                     {\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textb...
+
+? 
+! Undefined control sequence.
+l.143     \newcommand{\WarningTok
+                                 }[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textb...
+
+? 
+! Undefined control sequence.
+l.143     \newcommand{\WarningTok}[1]{\textcolor
+                                                [rgb]{0.38,0.63,0.69}{\textb...
+
+? 
+! Undefined control sequence.
+l.143 ...]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf
+                                                  {\textit{{#1}}}}}
+? 
+! Undefined control sequence.
+l.143 ...olor[rgb]{0.38,0.63,0.69}{\textbf{\textit
+                                                  {{#1}}}}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.143 ...r[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#
+                                                  1}}}}}
+? 
+
+Overfull \hbox (49.2742pt too wide) in paragraph at lines 127--144
+[]\tenrm [1][rgb]0.53,0.00,0.001 [1][rgb]0.25,0.44,0.631 [1][rgb]0.25,0.44,0.63
+1 [1][rgb]0.73,0.40,0.531 [1]1 [1][rgb]0.73,0.13,0.131|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm [
+.\tenrm 1
+.\tenrm ]
+.\tenrm [
+.etc.
+
+
+Overfull \hbox (11.49638pt too wide) in paragraph at lines 127--144
+\tenrm [1][rgb]0.38,0.63,0.691 [1][rgb]0.38,0.63,0.691 [1][rgb]0.10,0.09,0.491 
+[1][rgb]0.00,0.44,0.131 [1][rgb]0.40,0.40,0.401|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm [
+.\tenrm 1
+.\tenrm ]
+.\tenrm [
+.\tenrm r
+.etc.
+
+! Undefined control sequence.
+l.154     \renewcommand
+                       {\TeX}{\textrm{\Oldtex}}
+? 
+! Undefined control sequence.
+l.154     \renewcommand{\TeX}{\textrm
+                                     {\Oldtex}}
+? 
+! Undefined control sequence.
+l.155     \renewcommand
+                       {\LaTeX}{\textrm{\Oldlatex}}
+? 
+! Undefined control sequence.
+l.155     \renewcommand{\LaTeX
+                              }{\textrm{\Oldlatex}}
+? 
+! Undefined control sequence.
+l.155     \renewcommand{\LaTeX}{\textrm
+                                       {\Oldlatex}}
+? 
+! Undefined control sequence.
+l.155     \renewcommand{\LaTeX}{\textrm{\Oldlatex
+                                                 }}
+? 
+! Undefined control sequence.
+l.158     \title
+                {Evolutionary\_Algorithms}
+? 
+! Undefined control sequence.
+l.165 \makeatletter
+                   
+? 
+! Undefined control sequence.
+l.263 \makeatother
+                  
+? 
+! Undefined control sequence.
+l.267     \makeatletter
+                       
+? 
+\Wrappedcontinuationbox=\box16
+\Wrappedvisiblespacebox=\box17
+! Undefined control sequence.
+l.270         \newcommand
+                         *\Wrappedvisiblespace {\textcolor{red}{\textvisible...
+
+? 
+! Undefined control sequence.
+l.270         \newcommand*\Wrappedvisiblespace
+                                               {\textcolor{red}{\textvisible...
+
+? 
+! Undefined control sequence.
+l.270 ...wcommand*\Wrappedvisiblespace {\textcolor
+                                                  {red}{\textvisiblespace}}
+? 
+! Undefined control sequence.
+l.270 ...espace {\textcolor{red}{\textvisiblespace
+                                                  }}
+? 
+! Undefined control sequence.
+l.271         \newcommand
+                         *\Wrappedcontinuationsymbol {\textcolor{red}{\llap{...
+
+? 
+! Undefined control sequence.
+l.271 ...   \newcommand*\Wrappedcontinuationsymbol
+                                                   {\textcolor{red}{\llap{\t...
+
+? 
+! Undefined control sequence.
+l.271 ...nd*\Wrappedcontinuationsymbol {\textcolor
+                                                  {red}{\llap{\tiny$\m@th\ho...
+
+? 
+! Undefined control sequence.
+<argument> \tiny 
+                 $\m @th\hookrightarrow $
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+l.271 ...r{red}{\llap{\tiny$\m@th\hookrightarrow$}
+                                                  }}
+? 
+! Undefined control sequence.
+<recently read> \m 
+                   
+<argument> \tiny $\m 
+                     @th\hookrightarrow $
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+l.271 ...r{red}{\llap{\tiny$\m@th\hookrightarrow$}
+                                                  }}
+? 
+! Undefined control sequence.
+l.272         \newcommand
+                         *\Wrappedcontinuationindent {3ex }
+? 
+! Undefined control sequence.
+l.272 ...   \newcommand*\Wrappedcontinuationindent
+                                                   {3ex }
+? 
+! Undefined control sequence.
+l.273         \newcommand
+                         *\Wrappedafterbreak {\kern\Wrappedcontinuationinden...
+
+? 
+! Undefined control sequence.
+l.273         \newcommand*\Wrappedafterbreak
+                                             {\kern\Wrappedcontinuationinden...
+
+? 
+! Undefined control sequence.
+l.273 ...terbreak {\kern\Wrappedcontinuationindent
+                                                  \copy\Wrappedcontinuationbox}
+
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \copy 
+l.273 ...eak {\kern\Wrappedcontinuationindent\copy
+                                                  \Wrappedcontinuationbox}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \copy 
+l.273 ...eak {\kern\Wrappedcontinuationindent\copy
+                                                  \Wrappedcontinuationbox}
+? 
+! Undefined control sequence.
+l.279         \newcommand
+                         *\Wrappedbreaksatspecials {%
+? 
+! Undefined control sequence.
+l.279         \newcommand*\Wrappedbreaksatspecials
+                                                   {%
+? 
+! Undefined control sequence.
+l.297         \newcommand
+                         *\Wrappedbreaksatpunct {%
+? 
+! Undefined control sequence.
+l.297         \newcommand*\Wrappedbreaksatpunct
+                                                {%
+? 
+! Undefined control sequence.
+l.314     \makeatother
+                      
+? 
+! Undefined control sequence.
+l.317     \makeatletter
+                       
+? 
+! Undefined control sequence.
+l.318     \renewcommand
+                       {\Verbatim}[1][1]{%
+? 
+! Undefined control sequence.
+l.318     \renewcommand{\Verbatim
+                                 }[1][1]{%
+? 
+! Undefined control sequence.
+l.320         \sbox
+                   \Wrappedcontinuationbox {\Wrappedcontinuationsymbol}%
+? 
+! Undefined control sequence.
+l.320 ...ntinuationbox {\Wrappedcontinuationsymbol
+                                                  }%
+? 
+! Undefined control sequence.
+l.321         \sbox
+                   \Wrappedvisiblespacebox {\FV@SetupFont\Wrappedvisiblespace}%
+
+? 
+! Undefined control sequence.
+l.321         \sbox\Wrappedvisiblespacebox {\FV
+                                               @SetupFont\Wrappedvisiblespace}%
+
+? 
+! Undefined control sequence.
+l.321 ...acebox {\FV@SetupFont\Wrappedvisiblespace
+                                                  }%
+? 
+! Parameters must be numbered consecutively.
+<to be read again> 
+                   ##
+l.322         \def\FancyVerbFormatLine ##
+                                         1{\hsize\linewidth
+? 
+! Parameters must be numbered consecutively.
+<to be read again> 
+                   1
+l.322         \def\FancyVerbFormatLine ##1
+                                          {\hsize\linewidth
+? 
+! Undefined control sequence.
+l.337         \Wrappedbreaksatspecials
+                                      
+? 
+! Undefined control sequence.
+l.339         \OriginalVerbatim
+                               [#1,codes*=\Wrappedbreaksatpunct]%
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.339         \OriginalVerbatim[#
+                                 1,codes*=\Wrappedbreaksatpunct]%
+? 
+! Undefined control sequence.
+l.339 ...lVerbatim[#1,codes*=\Wrappedbreaksatpunct
+                                                  ]%
+? 
+! Undefined control sequence.
+l.341     \makeatother
+                      
+? 
+! Undefined control sequence.
+l.344     \definecolor
+                      {incolor}{HTML}{303F9F}
+? 
+! Undefined control sequence.
+l.345     \definecolor
+                      {outcolor}{HTML}{D84315}
+? 
+! Undefined control sequence.
+l.346     \definecolor
+                      {cellborder}{HTML}{CFCFCF}
+? 
+! Undefined control sequence.
+l.347     \definecolor
+                      {cellbackground}{HTML}{F7F7F7}
+? 
+! Undefined control sequence.
+l.350     \makeatletter
+                       
+? 
+! Undefined control sequence.
+l.351     \newcommand
+                     {\boxspacing}{\kern\kvtcb@left@rule\kern\kvtcb@boxsep}
+? 
+! Undefined control sequence.
+l.351     \newcommand{\boxspacing
+                                 }{\kern\kvtcb@left@rule\kern\kvtcb@boxsep}
+? 
+! Undefined control sequence.
+l.351     \newcommand{\boxspacing}{\kern\kvtcb
+                                              @left@rule\kern\kvtcb@boxsep}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   @
+l.351     \newcommand{\boxspacing}{\kern\kvtcb@
+                                               left@rule\kern\kvtcb@boxsep}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   @
+l.351     \newcommand{\boxspacing}{\kern\kvtcb@
+                                               left@rule\kern\kvtcb@boxsep}
+? 
+! Undefined control sequence.
+l.351 ...spacing}{\kern\kvtcb@left@rule\kern\kvtcb
+                                                  @boxsep}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   @
+l.351 ...pacing}{\kern\kvtcb@left@rule\kern\kvtcb@
+                                                  boxsep}
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   @
+l.351 ...pacing}{\kern\kvtcb@left@rule\kern\kvtcb@
+                                                  boxsep}
+? 
+! Undefined control sequence.
+l.352     \makeatother
+                      
+? 
+! Undefined control sequence.
+l.353     \newcommand
+                     {\prompt}[4]{
+? 
+! Undefined control sequence.
+l.353     \newcommand{\prompt
+                             }[4]{
+? 
+! Undefined control sequence.
+l.354         {\ttfamily
+                        \llap{{\color{#2}[#3]:\hspace{3pt}#4}}\vspace{-\base...
+
+? 
+! Undefined control sequence.
+<argument> {\color 
+                   {##2}[##3]:\hspace {3pt}##4}
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+l.354 ...ily\llap{{\color{#2}[#3]:\hspace{3pt}#4}}
+                                                  \vspace{-\baselineskip}}
+? 
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> {\color {##
+                      2}[##3]:\hspace {3pt}##4}
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+l.354 ...ily\llap{{\color{#2}[#3]:\hspace{3pt}#4}}
+                                                  \vspace{-\baselineskip}}
+? 
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> {\color {##2}[##
+                           3]:\hspace {3pt}##4}
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+l.354 ...ily\llap{{\color{#2}[#3]:\hspace{3pt}#4}}
+                                                  \vspace{-\baselineskip}}
+? 
+! Undefined control sequence.
+<argument> {\color {##2}[##3]:\hspace 
+                                      {3pt}##4}
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+l.354 ...ily\llap{{\color{#2}[#3]:\hspace{3pt}#4}}
+                                                  \vspace{-\baselineskip}}
+? 
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> {\color {##2}[##3]:\hspace {3pt}##
+                                             4}
+\llap #1->\hbox to\z@ {\hss #1
+                              }
+l.354 ...ily\llap{{\color{#2}[#3]:\hspace{3pt}#4}}
+                                                  \vspace{-\baselineskip}}
+? 
+! Undefined control sequence.
+l.354 ...p{{\color{#2}[#3]:\hspace{3pt}#4}}\vspace
+                                                  {-\baselineskip}}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.354 ...]:\hspace{3pt}#4}}\vspace{-\baselineskip}
+                                                  }
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.354 ...]:\hspace{3pt}#4}}\vspace{-\baselineskip}
+                                                  }
+? 
+! Undefined control sequence.
+l.360     \sloppy
+                 
+? 
+! Undefined control sequence.
+l.362     \hypersetup
+                     {
+? 
+! Undefined control sequence.
+l.371     \geometry
+                   {verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+? 
+! Undefined control sequence.
+l.375 \begin
+            {document}
+? 
+! Undefined control sequence.
+l.377     \maketitle
+                    
+? 
+! Undefined control sequence.
+l.382     \hypertarget
+                      {irakli-okruashvili-marjan-chowdhury-andrew-pantera}{%
+? 
+! Undefined control sequence.
+l.383 \paragraph
+                {Irakli Okruashvili, Marjan Chowdhury, Andrew
+? 
+! Undefined control sequence.
+l.384 Pantera}\label
+                    {irakli-okruashvili-marjan-chowdhury-andrew-pantera}}
+? 
+
+Overfull \hbox (46.02385pt too wide) in paragraph at lines 382--385
+[]\tenrm irakli-okruashvili-marjan-chowdhury-andrew-panteraIrakli Okru-ashvili,
+ Mar-jan Chowd-hury, An-drew Panterairakli-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm r
+.\tenrm a
+.\tenrm k
+.etc.
+
+! Undefined control sequence.
+l.386 \hypertarget
+                  {professor-strigul}{%
+? 
+! Undefined control sequence.
+l.387 \paragraph
+                {Professor Strigul}\label{professor-strigul}}
+? 
+! Undefined control sequence.
+l.387 \paragraph{Professor Strigul}\label
+                                         {professor-strigul}}
+? 
+! Undefined control sequence.
+l.389 \hypertarget
+                  {general-evolutionary-algorithms}{%
+? 
+! Undefined control sequence.
+l.390 \section
+              {General: Evolutionary
+? 
+! Undefined control sequence.
+l.391 Algorithms}\label
+                       {general-evolutionary-algorithms}}
+? 
+! Undefined control sequence.
+l.393 \hypertarget
+                  {history}{%
+? 
+! Undefined control sequence.
+l.394 \subsection
+                 {History}\label{history}}
+? 
+! Undefined control sequence.
+l.394 \subsection{History}\label
+                                {history}}
+? 
+! Undefined control sequence.
+l.396 \hypertarget
+                  {applications}{%
+? 
+! Undefined control sequence.
+l.397 \subsection
+                 {Applications}\label{applications}}
+? 
+! Undefined control sequence.
+l.397 \subsection{Applications}\label
+                                     {applications}}
+? 
+! Undefined control sequence.
+l.399 \hypertarget
+                  {mathmatical-properties}{%
+? 
+! Undefined control sequence.
+l.400 \subsection
+                 {Mathmatical properties}\label{mathmatical-properties}}
+? 
+! Undefined control sequence.
+l.400 \subsection{Mathmatical properties}\label
+                                               {mathmatical-properties}}
+? 
+! Undefined control sequence.
+l.402 \hypertarget
+                  {original-research-component}{%
+? 
+! Undefined control sequence.
+l.403 \section
+              {Original Research
+? 
+! Undefined control sequence.
+l.404 Component}\label
+                      {original-research-component}}
+? 
+! Undefined control sequence.
+l.406 \hypertarget
+                  {the-computational-model-the-code}{%
+? 
+! Undefined control sequence.
+l.407 \subsection
+                 {The Computational Model (the
+? 
+! Undefined control sequence.
+l.408 code)}\label
+                  {the-computational-model-the-code}}
+? 
+! Undefined control sequence.
+l.410 \hypertarget
+                  {application-to-non-differentiable-functions}{%
+? 
+! Undefined control sequence.
+l.411 \subsection
+                 {Application to Non-Differentiable
+? 
+! Undefined control sequence.
+l.412 functions}\label
+                      {application-to-non-differentiable-functions}}
+? 
+
+Overfull \hbox (3.05156pt too wide) in paragraph at lines 410--413
+[]\tenrm application-to-non-differentiable-functionsApplication to Non-Differen
+tiable functionsapplication-to-non-|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm a
+.\tenrm p
+.\tenrm p
+.\tenrm l
+.etc.
+
+! Undefined control sequence.
+l.414 \hypertarget
+                  {application-to-maze-solving}{%
+? 
+! Undefined control sequence.
+l.415 \subsection
+                 {Application to Maze
+? 
+! Undefined control sequence.
+l.416 Solving}\label
+                    {application-to-maze-solving}}
+? 
+! Undefined control sequence.
+l.418     \begin
+                {tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*...
+
+? 
+! Undefined control sequence.
+l.419 \prompt
+             {In}{incolor}{ }{\boxspacing}
+? 
+! Undefined control sequence.
+l.419 \prompt{In}{incolor}{ }{\boxspacing
+                                         }
+? 
+! Undefined control sequence.
+l.420 \begin
+            {Verbatim}[commandchars=\\\{\}]
+? 
+Runaway argument?
+\{\}] \PY {n}{a} \PY {o}{=} \PY {l+m+mi}{123} \end {Verbatim} \end {t\ETC.
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.424 
+      
+? 
+
+Overfull \hbox (39.74617pt too wide) in paragraph at lines 418--424
+[]\tenrm tcolorbox[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback
+=cellbackground, col-frame=cellborder]|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm t
+.\tenrm c
+.\tenrm o
+.\tenrm l
+.etc.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] )</usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Evolutionary_Algorithms.pdf (1 page, 41670 bytes).
+PDF statistics:
+ 20 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
